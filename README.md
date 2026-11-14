@@ -3,7 +3,7 @@
 # Optimisation et déploiement d'un système RAG pour la question-réponse
 **Étude comparative des stratégies de récupération et de reranking, et cadre d'évaluation rigoureux**
 
-Groupe 1 : Ismail Fathi, Riyad Sammouh, Fathi Ismail, Rguieg Aymen
+Groupe 1 : Ismail Fathi, Riyad Sammouh, Rayane Yajjou, Rguieg Aymen
 
 ## 1. Contenu du dépôt
 Un pipeline RAG complet et reproductible :
