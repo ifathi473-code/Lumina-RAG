@@ -1,0 +1,39 @@
+{
+  "n_articles": 48,
+  "n_paragraphes": 2067,
+  "n_questions": 10570,
+  "mots_par_paragraphe": {
+    "moy": 122.77697145621674,
+    "med": 111.0,
+    "min": 22,
+    "max": 629
+  },
+  "mots_par_question": {
+    "moy": 10.216650898770103,
+    "med": 10.0,
+    "min": 3,
+    "max": 33
+  },
+  "mots_par_reponse": {
+    "moy": 3.016461684011353,
+    "med": 2.0,
+    "max": 29
+  },
+  "questions_types": {
+    "which": 699,
+    "where": 478,
+    "what": 6022,
+    "who": 1109,
+    "other": 169,
+    "how": 1225,
+    "when": 713,
+    "why": 155
+  },
+  "recouvrement_question_paragraphe": {
+    "moy": 0.7476737532413975,
+    "med": 0.75,
+    "part_sous_50pct": 0.09035004730368969
+  },
+  "reponses_distinctes_moy": 1.7029328287606433,
+  "questions_sans_recouvrement": 0.0043519394512772
+}

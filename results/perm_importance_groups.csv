@@ -1,0 +1,6 @@
+groupe,delta_mrr,std
+"Scores lexicaux (BM25, TF-IDF, rangs)",0.2328058187230027,0.004595156008980908
+"Appariement fin (couverture, bigrammes, proximité, phrase)",0.11122197850064572,0.0031247675261810667
+"Scores sémantiques (GloVe, LSA, rangs)",0.014337051383768196,0.0018217619693207889
+Longueurs,0.001628630544017784,0.0007475204373975549
+"Type de réponse attendu (nombres, années, majuscules, wh-)",-0.000530755588743137,0.0007626037194894057

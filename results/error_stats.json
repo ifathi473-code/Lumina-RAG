@@ -1,0 +1,6 @@
+{
+  "n_test": 3061,
+  "n_errors_top1": 563,
+  "part_erreurs_meme_article": 0.7033747779751333,
+  "part_erreurs_reponse_presente_dans_top1": 0.11012433392539965
+}

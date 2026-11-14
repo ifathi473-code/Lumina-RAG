@@ -1,0 +1,36 @@
+== para: 2067 passages
+  alpha*(bm25) = 0.7
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+  modèles : {'logreg': {'C': 10, 'val_ndcg10': np.float64(0.8543675061992321)}, 'lgbm': {'num_leaves': 15, 'best_iter': 225, 'val_ndcg10': np.float64(0.8695915112417727)}}
+                   systeme  ...  reponse_dans_phrase_selectionnee
+0                     BM25  ...                               NaN
+1                     BM25  ...                          0.693891
+2                     BM25  ...                               NaN
+3              Hybride RRF  ...                               NaN
+4              Hybride RRF  ...                          0.596537
+5              Hybride RRF  ...                               NaN
+6       Hybride + LightGBM  ...                               NaN
+7       Hybride + LightGBM  ...                          0.702058
+8       Hybride + LightGBM  ...                               NaN
+9  Oracle (bon paragraphe)  ...                          0.832734
+
+[10 rows x 4 columns]
+  terminé en 74s
+== w100s50: 4047 passages
+  alpha*(bm25) = 0.7
+  terminé en 24s
+== w50s25: 9104 passages
+  alpha*(bm25) = 0.6
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+/usr/local/lib/python3.13/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+  modèles : {'logreg': {'C': 0.1, 'val_ndcg10': np.float64(0.7605437080640765)}, 'lgbm': {'num_leaves': 31, 'best_iter': 304, 'val_ndcg10': np.float64(0.8146699603021498)}}
+  terminé en 134s

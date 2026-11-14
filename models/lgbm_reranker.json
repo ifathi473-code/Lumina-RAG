@@ -1,0 +1,38 @@
+{
+  "features": [
+    "bm25",
+    "bm25_rel",
+    "glove_cos",
+    "lsa_cos",
+    "tfidf_cos",
+    "rank_bm25",
+    "rank_glove",
+    "rank_lsa",
+    "rrf",
+    "coverage",
+    "idf_coverage",
+    "bigram_match",
+    "bigram_frac",
+    "proximity",
+    "first_match_pos",
+    "best_sent_cov",
+    "len_passage",
+    "len_query",
+    "n_numbers",
+    "n_years",
+    "n_caps",
+    "qtype_what",
+    "qtype_who",
+    "qtype_when",
+    "qtype_where",
+    "qtype_why",
+    "qtype_how",
+    "qtype_which",
+    "qtype_other"
+  ],
+  "params": {
+    "num_leaves": 15,
+    "best_iter": 225,
+    "val_ndcg10": 0.8695915112417727
+  }
+}
