@@ -1,0 +1,12 @@
+# Dépendances minimales pour l'application et l'API (sans SHAP, matplotlib ni pytest)
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+lightgbm>=4.3
+nltk>=3.9
+psutil>=5.9
+streamlit>=1.40
+fastapi>=0.110
+uvicorn>=0.30
+pypdf>=4.0
